@@ -1,0 +1,11 @@
+security:
+    resource:
+        path: ../src/Security/Infrastructure/Controller
+        namespace: App\Security\Infrastructure\Controller
+    type: attribute
+
+roulette:
+    resource:
+        path: ../src/Roulette/Infrastructure/Controller
+        namespace: App\Roulette\Infrastructure\Controller
+    type: attribute
