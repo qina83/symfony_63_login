@@ -55,7 +55,7 @@ class SecurityController extends AbstractController
 
             return new JsonResponse($jwt, 400);
         } catch (\DomainException $exception) {
-            return new Response($exception->getMessage(), 400);
+            return new Response('Autenticazione fallita', 400);
         }
     }
 }
